@@ -1,5 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html {
   font-family: sans-serif;
+  /* color: #000; */
 }
 
 body {
@@ -18,6 +24,7 @@ body {
 .guesses {
   color: white;
   padding: 7px;
+  background-color: #7a7a7a;
 }
 
 button {
@@ -29,7 +36,6 @@ button {
   font-size: 30px;
   border-style: none;
   margin-top: 30px;
-  /* margin-left: 50px; */
 }
 
 #subt {
@@ -41,7 +47,7 @@ button {
   font-size: 20px;
   border-style: none;
   margin-top: 50px;
-  /* margin-left: 75px; */
+  cursor: pointer;
 }
 
 #guessField {
@@ -51,21 +57,14 @@ button {
   font-size: 30px;
   border-style: none;
   margin-top: 25px;
-
-  /* margin-left: 50px; */
   border: 5px solid #6c6d6d;
   text-align: center;
 }
 
 #guess {
   font-size: 55px;
-  /* margin-left: 90px; */
   margin-top: 120px;
   color: #fff;
-}
-
-.guesses {
-  background-color: #7a7a7a;
 }
 
 #wrapper {
@@ -80,7 +79,6 @@ button {
 
 h1 {
   background-color: #161616;
-
   color: #fff;
   text-align: center;
 }
@@ -88,4 +86,16 @@ h1 {
 p {
   font-size: 16px;
   text-align: center;
+}
+
+#subt {
+  background-color: #161616;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: none;
+  margin-top: 50px;
+  cursor: pointer; /* Added missing semicolon at the end */
 }
